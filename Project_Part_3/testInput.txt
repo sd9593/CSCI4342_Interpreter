@@ -1,0 +1,35 @@
+program part3 ;
+	var
+		variable1 , variable2 , answer : Integer ;
+		var1 , var2 , ans : Boolean ;
+		var3 , var4 : array [ 4 .. 5 ] of Integer ;
+		var5 , var6 : array [ 3 .. 3 ] of Boolean ;	
+		arr1 : array [ 0 .. 0 ] of Integer ;	
+		arr2 : array [ 2 .. 19 ] of Boolean ;
+
+begin
+	read ( variable1 ) ;
+	read ( var6 [ 3 - 1 + 1 ] ) ;
+	var1 := false ;
+	var3 [ 4 - 2 div 3 ] := 9 ;
+	ans := var1 and var2 ;
+	var5 [ ( ( 3 ) div 2 ) + 2 ] := ( not ( var1 ) ) ;
+	var2 := 3 <> 3 ;
+	write ( var3 [ 4 ] ) ;
+	answer := variable1 + ( variable2 - 2 ) * ( 3 * ( 3 - 2 + 2 ) ) div 2 + 4 ;
+	write ( answer ) ;
+	answer := variable1 + -6 div 3 * 5 - 2 ;
+	write ( answer ) ;
+	answer := -6 div 3 ;
+	write ( answer ) ;
+	write ( not ( answer <= -6 ) ) ;
+	write ( not not not not not not not not var5 [ 3 ] ) ;
+	write ( var3 [ 4 + 0 ] ) ;
+	write ( var6 [ 1 + 2 * 1 ] ) ;
+	write ( var5 [ 6 div 2 ] ) ;
+	write ( variable1 ) ;
+	arr1 [ 8 div 9 ] := -13 ;
+	write ( arr1 [ 1 - 1 ] ) ;
+	arr2 [ 4 * 4 ] := 0 > 2 ;
+	write ( arr2 [ 16 ] ) ;
+end .

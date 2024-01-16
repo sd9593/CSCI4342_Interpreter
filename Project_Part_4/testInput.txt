@@ -1,0 +1,40 @@
+program exe1 ;
+	var
+		n , s , i : Integer ;
+        l : Boolean ;
+	procedure soma ;
+		var q , r : Integer ;
+        begin
+            q := 6 ;
+            write ( 11 ) ;
+            if ( i div 2 ) * 2 = 3 then
+                write ( 21 ) ;
+        end ;
+    procedure test ;
+		var q1 , r1 : Integer ;
+        begin
+            q1 := i * i ;
+            write ( 23 ) ;
+            if ( i div 2 ) * 2 = i then
+                write ( 42 ) ;
+            else
+                s := s - q ;
+        end ;
+begin
+    write ( n + n ) ;
+	read ( n ) ;
+    read ( l ) ;
+	s := 10 ; i := 0 ;
+    test ;
+	while i <= n do
+        begin
+            soma ;
+            write ( i ) ;
+            write ( i div 2 ) ;
+            if ( i div 2 ) = 0 then
+                write ( s ) ;
+            l := not not not l ;
+            write ( l ) ;
+            i := i + 1 ;
+        end
+end .

@@ -1,0 +1,39 @@
+program q ; 
+    var p  :  array [ 3 .. 10 ] of Integer ; 
+    p , j , k : Integer ;
+
+
+    procedure a ; 
+        var p : Integer ;
+
+        begin b := false ; 
+            while i <= n do 
+                write ( a [ 10 ] ) ;
+            read ( a ) ;
+        end
+    ;
+
+    procedure a ; 
+        var p : Integer ;
+        begin b := 32 ; 
+            q ;
+            begin b := 32 ; 
+                q ;
+                while i <= n do 
+                    write ( 10 ) ;
+                read ( a ) ;
+            end
+            while i <= n do 
+                write ( 10 + 10 ) ;
+            read ( a ) ;
+        end
+    ;
+
+    begin 
+        q := 10 ;
+        if ( i div 10 + 10 ) then x := 11 ; else write ( 4 ) ;
+        while i <= 10 do    
+            write ( not not not not not not not not not 10 ) ;
+    end
+
+ . 

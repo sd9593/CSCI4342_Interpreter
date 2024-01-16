@@ -1,0 +1,9 @@
+program part3 ;
+	var
+		variable1 , variable2 , answer : Integer ;
+begin
+	read ( variable1 ) ;
+	variable2 := 13 ;
+	answer := variable1 + variable2 ;
+	write ( answer ) ;
+end .

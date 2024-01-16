@@ -1,0 +1,29 @@
+2
+Integer Boolean
+2
+true false
+3
+* div and
+3
++ - or
+6
+= <> < <= >= >
+1
+:=
+24
+( ) [ ] . , ;
+: .. not if then
+else of while do begin
+end read write var array
+procedure program
+3
+test1
+t2st
+t123st45
+6
+3test
+test%
+TesT_4
+Test$
+Test@#^&*
+Test()
